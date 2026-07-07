@@ -21,4 +21,4 @@ def test_registrar_compra():
 
 def test_rechazar_correo_invalido():
     with pytest.raises(ValueError, match="correo"):
-        Cliente("Pedro", "correo-invalido")
+        Cliente("Pedro", "correo-invalido") 
